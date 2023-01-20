@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap"
+    rel="stylesheet">
+
+  <title>DevFinances</title>
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="assets/logo.svg" alt="Logo App Finance">
+  </header>
+
+  <main class="container">
+    <section id="balance">
+      <h2>Balanço</h2>
+
+      <div class="card">
+        <h3>Entradas</h3>
+        <p>R$ 5.000,00</p>
+      </div>
+      <div class="card">
+        <h3>Saídas</h3>
+        <p>R$ 2.000,00</p>
+      </div>
+      <div class="card total">
+        <h3>Total</h3>
+        <p>R$ 3.000,00</p>
+      </div>
+    </section>
+
+    <section id="transaction">
+      <h2>Trasações</h2>
+      <Table id="data-table">
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="description">Limpeza do escritório</td>
+            <td class="expense">- R$ 120,00</td>
+            <td class="date">13/05/2021</td>
+          </tr>
+          <tr>
+            <td class="description">Desenvolvimento de site</td>
+            <td class="income"> R$ 2420,00</td>
+            <td class="date">18/05/2021</td>
+          </tr>
+          <tr>
+            <td class="description">Aluguel</td>
+            <td class="expense">- R$ 480,00</td>
+            <td class="date">25/05/2021</td>
+          </tr>
+          <tr>
+            <td class="description">Faxina Residencia</td>
+            <td class="expense">- R$ 120,00</td>
+            <td class="date">13/05/2021</td>
+          </tr>
+        </tbody>
+      </Table>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>dev.finance$</p>
+  </footer>
+</body>
+
+</html>
